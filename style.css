@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main {
+    background-image: url("bg.jpg");
+    /* width:100vw; */
+    
+    height: 644px;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+    /* z-index: -5; */
+}
+/* 
+.main .box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+
+    position: relative;
+    top: -163px;
+    z-index: -2;
+} */
+.main .box {
+    height:644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+
+    /* background-color: red; */
+    height: 10vh;
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 30px;
+
+}
+
+
+nav svg {
+    /* margin: 10px; */
+    transform: scale(1.2);
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.btn {
+    /* height: 10px; */
+    background-color: red;
+    border-radius:5px;
+    width: 80px;
+    border:transparent;
+    font-size:medium;
+    
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    color: white;
+    font-weight: 400;
+    position: relative;
+    padding: 4px;
+} 
+.lang{
+    background-color:rgba(23,23,23,0.7) ;
+    margin:15px;
+    padding: 1px;
+    border-radius: 2px;
+    transform: scale(1.3);
+    color:white;
+    position: relative;
+    z-index: 2;
+    font: weight 400px;
+}
+
+ .hero {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    position: relative;
+    z-index: 1;
+    gap:20px;
+} 
+
+.l1 {
+    position:relative;
+    z-index: 20;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.l2{
+ 
+ font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.l3{
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
+}
+.entries{
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap:50px;
+    transform: scale(1.2);
+    top: -80px;
+    /* background:#171717CC; */
+
+}
+.gets{
+    background-color: red;
+    padding: 8px;
+    font-weight: 500;
+    color: white;
+    width:120px;
+border-radius: 5px;
+border:transparent;
+}
+.main input{
+    
+    /* margin:10px; */
+    transform: scale(1.5);
+    background-color: rgba(23,23,23,0.7);
+    border: 0.5px solid;
+    padding: 1px 10px;
+    
+    /* background:#171717CC; */
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+    top:45px;
+}
+
+ 
+.first{
+    display:flex;
+    /* background-color:red; */
+    width:80vw;
+    margin: auto;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    left:160px;
+    /* gap:30px; */
+} 
+
+.first .text{
+    position: absolute;
+    color:white;
+    top:200px;
+
+
+}
+.secimg{
+    position: absolute;
+    top:50px;
+    left:360px;
+}
+.secimg img{
+    position: absolute;
+}
+
+
+
+.secimg video{
+    position: absolute;
+    z-index: -2;
+    left:89px;
+    top:102px;
+    height:256px;
+} 
+.text :nth-child(1){
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.second{
+    position: relative;
+    top:500px;
+    display: flex;
+    max-width:80vw;
+justify-content: space-between;
+/* margin: auto; */
+align-items: center;
+
+
+}
+.text :nth-child(2){
+    color: white;
+}
+
+.texts{
+    position: absolute;
+    left:100px;
+}
+.secImg{
+    position: relative;
+    left:550px;
+}
